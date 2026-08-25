@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 한글문서 자동작성기</title>
+  <link rel="stylesheet" href="/static/app.css" />
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <span class="badge">범용 HWP/HWPX 자동작성</span>
+    <h1>한글 양식을 올리면<br>내용과 사진을 맞춰드립니다</h1>
+    <p>원본은 보존하고, 확인된 정보만 새 문서에 입력합니다.</p>
+  </header>
+  <section class="card">
+    <form id="uploadForm">
+      <label>1. 한글 파일</label>
+      <input type="file" name="document" accept=".hwp,.hwpx" required />
+      <label>2. 작성할 내용</label>
+      <textarea name="content" rows="10" placeholder="예)&#10;교육명: AI 활용 진로교육&#10;일시: 2026-10-26 10:00~11:30&#10;대상: 고등학교 3학년&#10;인원: 8명&#10;교육내용: AI를 활용한 증명사진 제작, 이력서 및 자기소개서 작성"></textarea>
+      <label>3. 사진 (선택)</label>
+      <input type="file" name="photos" accept="image/*" multiple />
+      <button type="submit">문서 분석하기</button>
+    </form>
+  </section>
+  <section id="result" class="card hidden">
+    <h2>자동 매칭 결과</h2>
+    <p class="hint">확실한 항목만 표시됩니다. 값은 생성 전에 수정할 수 있습니다.</p>
+    <div id="matches"></div>
+    <button id="generateBtn">완성 HWPX 만들기</button>
+    <div id="download"></div>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>
