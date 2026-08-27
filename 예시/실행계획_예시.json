@@ -4,12 +4,8 @@
       "action": "replace",
       "find": "2025년 09월 17일",
       "value": "2026년 09월 17일"
-    },
-    {
-      "action": "replace",
-      "find": "2025 디지털 역량강화 교육",
-      "value": "주민자치 힐링 프로그램"
     }
   ],
-  "photos": []
+  "photos": [],
+  "verify": true
 }

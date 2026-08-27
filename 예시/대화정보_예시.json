@@ -1,0 +1,32 @@
+{
+  "프로그램명": {
+    "value": "주민자치 힐링 프로그램",
+    "source": "현재 대화",
+    "confidence": 1.0
+  },
+  "일시": {
+    "value": "2026년 09월 17일",
+    "source": "현재 대화",
+    "confidence": 1.0
+  },
+  "대상": {
+    "value": "주민자치위원",
+    "source": "관련 대화",
+    "confidence": 1.0
+  },
+  "내용": {
+    "value": "스마트폰을 활용한 감성사진 만들기와 플라워돔 만들기를 결합한 힐링 프로그램",
+    "source": "관련 대화",
+    "confidence": 0.95
+  },
+  "장소": {
+    "value": "",
+    "source": null,
+    "confidence": 0.0
+  },
+  "인원": {
+    "value": "",
+    "source": null,
+    "confidence": 0.0
+  }
+}

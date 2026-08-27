@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hwp-conversation-autofill"
-version = "0.1.0"
-description = "AI 대화내용을 HWP/HWPX 문서에 자동 반영하는 로컬 엔진"
+version = "0.2.0"
+description = "AI 대화 내용을 HWP/HWPX 문서에 자동 반영하는 대화형 문서작성 엔진"
 requires-python = ">=3.10"
 dependencies = []
 
